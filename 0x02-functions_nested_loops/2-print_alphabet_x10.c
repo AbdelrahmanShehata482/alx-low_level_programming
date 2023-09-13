@@ -17,4 +17,3 @@ _putchar(c);
 _putchar('\n');
 }
 }
-#include "main.h"
