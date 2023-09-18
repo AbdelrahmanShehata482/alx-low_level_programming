@@ -5,7 +5,6 @@
  * @str: input
  * Return: print
  */
-#include "main.h"
 
 void puts2(char *str)
 {
@@ -14,7 +13,7 @@ void puts2(char *str)
 	while (*str != '\0')
 	{
 		_putchar(*str);
-		str=str+2;
+		str = str + 2;
 	}
 	_putchar('\n');
 }
